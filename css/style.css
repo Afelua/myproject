@@ -1,0 +1,39 @@
+.title {
+  color: rgba(11, 36, 251, 0.5);
+  background: yellow;
+  width: 100%;
+}
+
+
+li{
+  width: 30%;
+  display: inline-block;
+}
+
+a:active{
+  color: #000;
+}
+
+body{
+  margin: 0;
+}
+
+
+nav{
+  width: 94%;
+  background: red;
+
+  min-width: 480px;
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px)  {
+  .title{
+    background: #fff;
+  }
+
+  .subtitle{
+    display: none;
+  }
+}
+
