@@ -22,9 +22,18 @@ body{
 nav{
   width: 94%;
   background: red;
-
+  position: fixed;
   min-width: 480px;
   max-width: 1200px;
+}
+
+.header{
+  position: relative;
+}
+
+.phone{
+  position: absolute;
+  right: 100px;
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px)  {
