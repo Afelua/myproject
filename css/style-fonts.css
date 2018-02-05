@@ -1,0 +1,59 @@
+body {
+  font-size: 48px;
+}
+
+
+.test2 {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.test3 {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.test4 {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 70px;
+  font-weight: 300;
+}
+
+@font-face{
+  src: url("./../fonts/raleway/Raleway-Regular.ttf");
+  font-family: Raleway;
+  font-weight: 400;
+}
+
+@font-face{
+  src: url("./../fonts/raleway/Raleway-SemiBold.ttf");
+  font-family: Raleway;
+  font-weight: 600;
+}
+
+
+@font-face{
+  src: url("./../fonts/raleway/Raleway-Bold.ttf");
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+.test5{
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.test6{
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.test7{
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+}

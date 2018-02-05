@@ -1,48 +1,120 @@
-.title {
-  color: rgba(11, 36, 251, 0.5);
-  background: yellow;
-  width: 100%;
+html{
+  width: 1589px;
 }
 
 
-li{
-  width: 30%;
+.table_video{
+  border: 1px solid;
+}
+
+.table_video td{
+  border: 1px solid;
+}
+
+.main-menu li {
+  display: inline-block;
+  width: 32%;
+}
+
+.main-menu-item{
+  display: inline-block;
+  width: 32%;
+}
+
+.menu-flexbox{
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+
+  font-size: 13px;
+  line-height: 2.7;
+  color: #282528;
+}
+
+.header-flexbox{
+  background-image: url("../images/bg.jpg");
+  background-color: yellow;
+  height: 300px;
+  margin: 30px 0 0 0;
+}
+
+.header-flexbox:before{
+  content: '';
   display: inline-block;
 }
 
-a:active{
-  color: #000;
+.menu-flexbox__item{
+  line-height: 2;
+  font-size: 20px;
 }
 
-body{
-  margin: 0;
+.menu-flexbox__button{
+  background: green;
+  font-size: 18px;
+  display: block;
 }
 
 
-nav{
-  width: 94%;
-  background: red;
-  position: fixed;
-  min-width: 480px;
-  max-width: 1200px;
+.menu-flexbox__button_download{
+  color: black;
+  margin: 0 0 50px;
 }
 
-.header{
+.menu-flexbox__button_upload{
+  margin: 30px 0 0;
+}
+
+.main-menu-item:nth-child(2n+1){
+  color: yellow;
+}
+
+.main-menu-item:nth-child(2n){
+  color: blue;
+}
+
+.main-menu-item:nth-child(3){
+  color: red;
+}
+
+.trips li{
+  width: 30%;
+}
+
+.trips-item{
+  width: 358px;
+  height: 358px;
   position: relative;
 }
 
-.phone{
+.trips-item:before{
+  content: '';
+  display: inline-block;
+  background: #F04A6F;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  right: 100px;
+  opacity: 0;
+  display: block;
+  transition: all 2s;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px)  {
-  .title{
-    background: #fff;
-  }
-
-  .subtitle{
-    display: none;
-  }
+.hover{
+  position: absolute;
+  color:white;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  margin-top: -15px;
+  opacity: 0;
+  transition: all 2s;
 }
 
+.trips li:hover .hover{
+  opacity: 1;
+}
+
+.trips li:hover .trips-item:before{
+  opacity: 1;
+}

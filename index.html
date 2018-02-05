@@ -2,25 +2,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Lesson4</title>
+  <title>Lesson5</title>
+  <link rel="stylesheet" href="./css/reset.min_.css" />
+  <link rel="stylesheet" href="./css/normalize.css" />
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-  <header class="header">
-    <nav>
-      <ul>
-        <li><a href="#" class="link" title="Home" >Home</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <h1 class="title" id="main-title">Introducing Mobileapp.</h1>
 
-    <h2 class="subtitle">Additional Text</h2>
+  <h1>Урок 5. Расширенная работа с версткой.</h1>
 
-    <img src="./images/phone.png" alt="" class="phone" />
-  </header>
+  <h2>Пример табличной верстки (не использовать для верстки)</h2>
+  <table border="1" class="table_video">
+    <tr>
+      <td colspan="2">
+        <h2>Watch the video</h2>
+        <p>Text</p>
+      </td>
+      <td>
+        Видео
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>
+            Картинка
+          </li>
+          <li>
+           Картинка
+         </li>
+         <li>
+           Картинка
+         </li>
+       </ul>
+     </td>
+   </tr>
+ </table>
+ <br /><br />
+
+ <h2>Пример верстки Inline-block</h2>
+ <nav>
+  <ul class="main-menu">
+    <li>
+      HOME
+    </li>
+    <li>
+      FEATURES
+    </li>
+    <li>
+      TEAM
+    </li>
+  </ul>
+</nav>
+<br />
+<nav>
+  <ul>
+    <li class="main-menu-item">
+      HOME
+    </li>
+    <li class="main-menu-item">
+      FEATURES
+    </li>
+    <li class="main-menu-item">
+      TEAM
+    </li>
+    <li class="main-menu-item">
+      TESTOMINALS
+    </li>
+     <li class="main-menu-item">
+      CONTACT
+    </li>
+  </ul>
+</nav>
+
+<header class="header-flexbox">
+  <h2>Верстка на Flexbox</h2>
+  <nav>
+    <ul class="menu-flexbox">
+      <li class="menu-flexbox__item">
+        HOME
+      </li>
+      <li class="menu-flexbox__item">
+        FEATURES
+      </li>
+      <li class="menu-flexbox__item">
+        TEAM
+      </li>
+    </ul>
+  </nav>
+
+  <button class="menu-flexbox__button menu-flexbox__button_download">Download</button>
+
+   <button class="menu-flexbox__button menu-flexbox__button_upload">Upload</button>
+
+
+
+</header>
+
+<main>
+  <ul class="trips">
+    <li>
+      <div class="trips-item">
+        <div class="hover">
+          название пляжа <br />
+          Индонезия
+        </div>
+        <img src="./images/image2.jpg" alt="" />
+      </div>
+      <h2>Indonesia</h2>
+    </li>
+  </ul>
+</main>
 </body>
 </html>
 
