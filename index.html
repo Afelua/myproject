@@ -2,117 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Lesson5</title>
+  <title>MR Travel</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.min_.css" />
   <link rel="stylesheet" href="./css/normalize.css" />
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href= "./css/style.css" />
 </head>
 <body>
+  <header class="introduce">
+    <h1 class="introduce__title">WELCOME TO MR TRAVEL PLAY AND EXPLORER</h1>
+  </header>
+  <main>
+    <section class="block">
+      <h2 class="block__title">Our Trips</h2>
+      <p class="block__subtitle">
+        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+      </p>
+      <ul class="block__destination">
+        <li class="destination-item destination">
+          <div class="destination__image">
+            <img src="./images/trips/image1.jpg" alt="" />
+          </div>
+          <h3 class="destination__title">United Arab Emirates</h3>
+          <span class="destination__subtitle">Enjoy Dubai</span>
+        </li>
+        <li class="destination-item">
+          <div class="destination-item_hover">
+            <img src="./images/icons/arrow.png" alt="" />
+            <h3 class="destination-hover__title">Raja Ampat Beach</h3>
+            <span class="destination-hover__subtitle">Indonesia</span>
+          </div>
+          <div class="destination__image">
+            <img src="./images/trips/image2.jpg" alt="" />
+          </div>
+          <h3 class="destination__title">Indonesia</h3>
+          <span class="destination__subtitle">Relax on the Raja Ampat Beach </span>
+        </li>
+        <li class="destination-item">
+          <div class="destination__image">
+            <img src="./images/trips/image3.jpg" alt="" />
+          </div>
+          <h3 class="destination__title">France</h3>
+          <span class="destination__subtitle">Feel the romance of Paris</span>
+        </li>
+      </ul>
+    </section>
 
-  <h1>Урок 5. Расширенная работа с версткой.</h1>
-
-  <h2>Пример табличной верстки (не использовать для верстки)</h2>
-  <table border="1" class="table_video">
-    <tr>
-      <td colspan="2">
-        <h2>Watch the video</h2>
-        <p>Text</p>
-      </td>
-      <td>
-        Видео
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>
-            Картинка
-          </li>
-          <li>
-           Картинка
-         </li>
-         <li>
-           Картинка
-         </li>
-       </ul>
-     </td>
-   </tr>
- </table>
- <br /><br />
-
- <h2>Пример верстки Inline-block</h2>
- <nav>
-  <ul class="main-menu">
-    <li>
-      HOME
-    </li>
-    <li>
-      FEATURES
-    </li>
-    <li>
-      TEAM
-    </li>
-  </ul>
-</nav>
-<br />
-<nav>
-  <ul>
-    <li class="main-menu-item">
-      HOME
-    </li>
-    <li class="main-menu-item">
-      FEATURES
-    </li>
-    <li class="main-menu-item">
-      TEAM
-    </li>
-    <li class="main-menu-item">
-      TESTOMINALS
-    </li>
-     <li class="main-menu-item">
-      CONTACT
-    </li>
-  </ul>
-</nav>
-
-<header class="header-flexbox">
-  <h2>Верстка на Flexbox</h2>
-  <nav>
-    <ul class="menu-flexbox">
-      <li class="menu-flexbox__item">
-        HOME
-      </li>
-      <li class="menu-flexbox__item">
-        FEATURES
-      </li>
-      <li class="menu-flexbox__item">
-        TEAM
-      </li>
-    </ul>
-  </nav>
-
-  <button class="menu-flexbox__button menu-flexbox__button_download">Download</button>
-
-   <button class="menu-flexbox__button menu-flexbox__button_upload">Upload</button>
-
-
-
-</header>
-
-<main>
-  <ul class="trips">
-    <li>
-      <div class="trips-item">
-        <div class="hover">
-          название пляжа <br />
-          Индонезия
-        </div>
-        <img src="./images/image2.jpg" alt="" />
-      </div>
-      <h2>Indonesia</h2>
-    </li>
-  </ul>
-</main>
+  </main>
 </body>
 </html>
-
