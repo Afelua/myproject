@@ -96,6 +96,10 @@ body{
   background: #F04A6F;
   opacity: 0.7;
   position: absolute;
+
+  transition: all 2s;
+  opacity: 0;
+/*  display: none;*/
 }
 
 .destination-item_hover{
@@ -106,6 +110,11 @@ body{
   padding: 50px 20px 0;
   box-sizing: border-box;
   z-index: 1;
+  opacity: 0;
+
+  transition: all 0.5s;
+
+/*  display: none; = opactity: 0;*/
 }
 
 .destination-hover__title{
@@ -116,4 +125,11 @@ body{
 .destination-hover__subtitle{
   display: block;
   margin: 10px 0 0 0;
+}
+
+
+.destination-item:hover .destination-item_hover,
+.destination-item:hover .destination__image:before{
+  /*display: block;*/
+  opacity: 1;
 }

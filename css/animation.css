@@ -1,0 +1,21 @@
+@keyframes Move{
+  0%{
+    opacity: 1;
+    transform: rotateY(0deg);
+    width: 300px;
+    left: 0;
+    top: 0;
+  }
+  100%{
+    opacity: 0.5;
+    width: 50px;
+    left: 300px;
+    top: 200px;
+    transform: rotateY(720deg);
+  }
+}
+
+.my-image{
+  animation: Move 10s infinite;
+  position: relative;
+}
