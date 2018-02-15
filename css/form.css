@@ -1,0 +1,16 @@
+.input-containers{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  width: 300px;
+}
+
+.my-button{
+  display: block;
+}
